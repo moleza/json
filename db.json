@@ -47,5 +47,35 @@
       "value": "VM Program Coverage"
     }
   ]
-}]
+}],
+"assets" :[
+  {
+    "id": 1,
+    "order": "1.00000000000000000000",
+    "Hostname": "BFT-Emanual",
+    "Domain": "WORKGROUP",
+    "Agent Enabled": "False",
+    "Last Logged in User": "Emanual",
+    "OS": "Windows 10 Pro",
+    "Impact": {
+      "id": 2008,
+      "value": "Medium",
+      "color": "light-green"
+    },
+    "Asset Category": [
+      {
+        "id": 2010,
+        "value": "Endpoint",
+        "color": "light-blue"
+      }
+    ],
+    "Owner": [
+      {
+        "id": 3,
+        "value": "Nardus"
+      }
+    ],
+    "Data Classification": "Internal Only"
+  }
+]
 }
