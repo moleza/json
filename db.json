@@ -140,5 +140,30 @@
       "value": "VM Program Coverage"
     }
   ]
+}],
+"keyriskindicator":[{
+  "id": 1,
+  "order": "1.00000000000000000000",
+  "Key Risk Indicators Name": "Access Management - Local Admin",
+  "Services": "Identity and Access Management",
+  "Description": "How many users have administrative access to end points?",
+  "Tolerance Owner": [],
+  "Tolerable": "Only authorised users with local admin access.",
+  "Acceptable": "Only authorised users with local admin access.",
+  "Unacceptable": "Unauthorised local admin users",
+  "Frequency of Measurement": null,
+  "Data Inputs": "",
+  "Data Source": "",
+  "Development Roadmap": "Beta",
+  "Controls": "",
+  "Controls - Key Risk Indicator": "Vulnerability & Patch Management",
+  "Service Catalogue": "Access Control",
+  "Risk Register - Key Risk Indicator": [
+    {
+      "id": 1,
+      "value": "No Audit Logs"
+    }
+  ],
+  "Service Catalogue - Key Risk Indicator": []
 }]
 }
