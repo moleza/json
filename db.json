@@ -1,53 +1,67 @@
 {
 	"servicecatalogue":[
-	{
-  "id": 1,
-  "order": "1.00000000000000000000",
-  "Service Name": "Firewall Management",
-  "Description": "Management and maintenance of the organization's firewall infrastructure to protect against unauthorized access.",
-  "Owner": [
     {
       "id": 1,
-      "value": "Mauritz"
+      "order": "1.00000000000000000000",
+      "Service Name": "Firewall Management",
+      "Description": "Management and maintenance of the organization's firewall infrastructure to protect against unauthorized access.",
+      "Owner": [
+        {
+          "id": 1,
+          "value": "Mauritz"
+        }
+      ],
+      "Service Category": [
+        {
+          "id": 2029,
+          "value": "Protect",
+          "color": "light-gray"
+        }
+      ],
+      "Key Risk Indicator": [
+        {
+          "id": 4,
+          "value": "Access Management - Average time to de/provision a user"
+        }
+      ],
+      "SLA": {
+        "id": 2019,
+        "value": "24 x 7",
+        "color": "green"
+      },
+      "Latest Measurement": "",
+      "Controls": [
+        {
+          "id": 1,
+          "value": "AC-1"
+        },
+        {
+          "id": 7,
+          "value": "AC-2(5)"
+        },
+        {
+          "id": 10,
+          "value": "AC-2(8)"
+        }
+      ],
+      "Observations": [
+        {
+          "id": 3,
+          "value": "2023-01-17 09:40"
+        }
+      ],
+      "Risk Register": [
+        {
+          "id": 1,
+          "value": "No Audit Logs"
+        },
+        {
+          "id": 5,
+          "value": "VM Program Coverage"
+        }
+      ]
     }
-  ],
-  "Service Category": [
-    {
-      "id": 2029,
-      "value": "Protect",
-      "color": "light-gray"
-    }
-  ],
-  "Key Risk Indicator": [
-    {
-      "id": 4,
-      "value": "Access Management - Average time to de/provision a user"
-    }
-  ],
-  "SLA": {
-    "id": 2019,
-    "value": "24 x 7",
-    "color": "green"
-  },
-  "Latest Measurement": "",
-  "Controls": "Access Control,Auditing and Accountability,Configuration Management,Identification and Authentication,Incident Response,Maintenance,Media Protection,Physical and Environmental Protection,Planning,Risk Assessment,System and Network Security",
-  "Observations": [
-    {
-      "id": 3,
-      "value": "2023-01-17 09:40"
-    }
-  ],
-  "Risk Register": [
-    {
-      "id": 1,
-      "value": "No Audit Logs"
-    },
-    {
-      "id": 5,
-      "value": "VM Program Coverage"
-    }
-  ]
-}],
+	],
 "assets" :[
   {
     "id": 1,
